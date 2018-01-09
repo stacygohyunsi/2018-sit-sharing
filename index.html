@@ -12,31 +12,44 @@
 				width: 50%;
 				position: absolute;
 				left: -200px;
-			}			
+			}	
+			.reveal section .closer	{
+				line-height: 100%;
+				display:block;
+			}
 			.reveal section .subtitles {
 				font-size: 30px;
 			}
 			.reveal section img { background:none; border:none; box-shadow:none; }
+			.reveal section .smallWords {
+				font-size: 25px;
+			}
+			.reveal section .happy {
+				font-size: 80px;
+				font-weight: 900;
+				color: orange;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-
-			<section>
-				<div>
-					<img src="images/govtechlogo.gif">
-					<h2>What does it mean to be in the Government?</h2>		
-					<p>17th November 2018</p>
-					<p>By Stacy Goh</p>
-				</div> 	
-			</section>
+				<section style="padding-top:1px">
+					<div>
+						<img src="images/govtechlogo.gif">
+						<h2>What does it mean to be in Government?</h2>	
+						<div class="closer">
+							<span class="smallWords">17th November 2018</span>
+							<span class="smallWords closer">By Stacy Goh</span>
+						</div>	
+					</div>
+				</section>
 
 			<section class="aboutMe" data-background-image="/images/stacygoh.png">
 				<h3>Stacy Goh</h3>
 				<div class="descriptionMyself">
 					<p>Software Engineer @ DCUBE</p>
-					<p>Working on Parents Gateway</p>
+					<p>Working on application called Parents Gateway</p>
 					<p>Love building new stuff</p>
 					<p>Love writing articles</p>
 				</div> 
@@ -44,7 +57,7 @@
 
 			<section>
 				<img src="/images/hive.png"/>
-				<h2>Who are we?</h2>
+				<h2>Who Are We?</h2>
 				<p class="subtitles">(Hang on for a wild ride!)</p>
 			</section>
 
@@ -53,7 +66,7 @@
 			</section>
 
 			<section data-markdown>
-				<img src="/images/products.png">
+				<img style="width: 70%" src="/images/products.png">
 			</section>
 
 			<section>
@@ -61,53 +74,52 @@
 			</section>
 
 			<section>
-				<li>Designers</li>
-				<li>Developers</li>
-				<li>Project managers</li>
-				<li>Quality engineers</li>
+				<img style="width:100%;" src="/images/who.png" />
 			</section>
 
 			<section>
-				<h2>What we do at work?</h2>
-				<p class="subtitles">(besides throwing buzzwords at each other..)</p>
+				<h2>What We Do at Work?</h2>
+				<p class="subtitles">(Besides throwing buzzwords at each other..)</p>
 			</section>
 
-			<section>
-				UX (User Experience) Design
-				UI (User Interface) Design
-				Software Development
-				Testing
-				Deployment
-				Quality Engineering
+			<section data-background="black">
+				<div style="color:white">
+						<p>UX (User Experience) Design</p>
+						<p>UI (User Interface) Design</p>
+						<p>Software Development</p>
+						<p>Testing</p>
+						<p>Deployment</p>
+						<p>Quality Engineering</p>
+				</div>
 			</section>
-
-			<section>
-				Our technical stack
-			</section>			
 
 			<section data-markdown>
 				<h2>Our Projects</h2>
-				<p class="subtitles">(Look ma! We made these!)</p>	
+				<p class="subtitles">(Look Ma, we made these!)</p>	
 			</section>
 
 			<section>
-				<img src="/images/parkingsg.png">
+				<img src="/images/bgp-logo.png">
+			</section>
+
+			<section>
+				<img style="width:100%;" src="/images/bgp.png">
 			</section>
 
 			<section data-markdown>
-					<img src="/images/oneservice.png"/>
+				<img style="width:70%;" src="/images/oneservice2.png"/>
 			</section>
 
 			<section data-markdown>
-					<img src="/images/oneservicescreenshots.png"/>
+				<img style="width: 80%;" src="/images/oneservicescreenshots.png"/>
 			</section>
 
 			<section data-markdown>
-					<img src="/images/myresponder.png"/>
+				<img style="width:45%;" src="/images/myresponder.png"/>
 			</section>
 
 			<section data-markdown>
-					<img src="/images/myresponderscreenshots.png"/>
+				<img style="width: 80%;" src="/images/myresponderscreenshots.png"/>
 			</section>			
 
 			<section>
@@ -115,11 +127,12 @@
 			</section>
 
 			<section>
-				<h2>Our culture</h2>
+				<h2>Our Culture</h2>
+				<p class="subtitles">(Right fit not?)</p>					
 			</section>
 
 			<section>
-				Self motivated teams
+				Self-motivated Teams
 			</section>
 
 			<section data-background-image="/images/writing.jpeg">
@@ -137,7 +150,7 @@
 			</section>
 
 			<section>
-				<h2>Am I the right fit?</h2>
+				<h2>Am I ready for the challenge?</h2>
 				<p class="subtitles">(Are you like butter to my toast?)</p>
 			</section>
 
@@ -147,7 +160,7 @@
 
 			<section>
 				So you think you can... 
-				<p>be <b>Happy & Awesome</b>, and help others be <b>Happy & Awesome</b> too?</p>
+				<p>be <span class="happy">Happy & Awesome</span>, and help others be <span class="happy">Happy & Awesome</span> too?</p>
 			</section>
 
 			<section data-background-image="/images/fun.png">
